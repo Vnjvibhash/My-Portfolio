@@ -1,15 +1,26 @@
 # My-Portfolio
 This project is a versatile and visually engaging project card system designed to showcase various projects with a dynamic and interactive interface. Each project is displayed using a Card widget, featuring an image carousel, project details, and a rating system. 
 
-## Getting Started
+This app serves as a dynamic showcase of my recent work and projects, providing a user-friendly and visually engaging experience. Here’s what makes it stand out:
 
-This project is a starting point for a Flutter application.
+✨ Interactive Project Display: Each project is presented in a beautifully designed card format, featuring an image carousel, detailed description, and rating. The use of a card-based UI not only enhances visual appeal but also improves usability.
 
-A few resources to get you started if this is your first Flutter project:
+🔍 Tech Tags: Tags associated with each project are displayed with relevant icons, giving users quick insights into the technologies and tools used.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🌐 Seamless Integration: With a built-in web view feature, users can effortlessly explore the project URLs directly from the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📱 User Experience Focused: The app is designed with a clean, intuitive interface to ensure a smooth and engaging experience.
+
+This project has been a fantastic opportunity to apply my skills in Flutter and Firebase, and I’m incredibly proud of the result. Check out the app and let me know what you think!
+
+## Video Overview
+
+Check out the video overview of the Portfolio Mobile App:
+
+[![Watch the video](assets/Screen_recording_20240918_234754.mp4)](https://github.com/Vnjvibhash/My-Portfolio/blob/main/assets/Screen_recording_20240918_234754.mp4)
+
+## Features
+- Interactive project cards
+- Tech tags with icons
+- Web view integration
+
