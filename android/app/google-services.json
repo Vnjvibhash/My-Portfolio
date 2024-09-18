@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "340289055497",
+    "firebase_url": "https://my-portfolio-de95c-default-rtdb.firebaseio.com",
+    "project_id": "my-portfolio-de95c",
+    "storage_bucket": "my-portfolio-de95c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340289055497:android:d08b1b185a7a601e8501d8",
+        "android_client_info": {
+          "package_name": "in.innovateria.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHSw5EKbJxek5VO2FXjGcQbihPnrdpQHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
