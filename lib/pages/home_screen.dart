@@ -20,7 +20,8 @@ class _HomeScreenState extends State<HomeScreen> {
     _loadProjects();
   }
 
-  void _loadProjects() {
+  void _loadProjects()  async {
+    await Future.delayed(const Duration(seconds: 1));
     final ref = FirebaseDatabase.instance.ref('projects');
     ref.onValue.listen((DatabaseEvent event) {
       final dataSnapshot = event.snapshot;

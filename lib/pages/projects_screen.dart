@@ -20,7 +20,8 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
     _loadProjects();
   }
 
-  void _loadProjects() {
+  void _loadProjects()  async {
+    await Future.delayed(const Duration(seconds: 1));
     final ref = FirebaseDatabase.instance.ref('projects');
     ref.onValue.listen((DatabaseEvent event) {
       final dataSnapshot = event.snapshot;
@@ -57,7 +58,7 @@ class _ProjectsScreenState extends State<ProjectsScreen> {
           const Padding(
             padding: EdgeInsets.only(left: 16.0, top: 60),
             child: Text(
-              'My Latest Work',
+              'My Projects',
               style: TextStyle(
                 color: Colors.black54,
                 fontSize: 24,

@@ -17,7 +17,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
     _loadDataWithDelay();
   }
 
-  _loadDataWithDelay() {
+  _loadDataWithDelay() async{
+    await Future.delayed(const Duration(seconds: 1));
     setState(() {
       isLoading = false;
     });
@@ -265,6 +266,28 @@ class _ProfileScreenState extends State<ProfileScreen> {
           color: Colors.black87,
         ),
       ),
+    );
+  }
+
+  void _showPopupDialog(BuildContext context, String title, Widget content) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(title),
+          content: SingleChildScrollView(
+            child: content,
+          ),
+          actions: [
+            TextButton(
+              child: const Text('Close'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
     );
   }
 }

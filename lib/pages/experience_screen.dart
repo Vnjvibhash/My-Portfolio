@@ -19,7 +19,8 @@ class _ExperienceScreenState extends State<ExperienceScreen> {
     _loadDataWithDelay();
   }
 
-  _loadDataWithDelay() {
+  _loadDataWithDelay() async {
+    await Future.delayed(const Duration(seconds: 1));
     setState(() {
       isLoading = false;
     });

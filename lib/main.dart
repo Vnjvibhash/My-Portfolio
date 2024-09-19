@@ -5,6 +5,7 @@ import 'package:portfolio/pages/home_screen.dart';
 import 'package:portfolio/pages/profile_screen.dart';
 import 'package:portfolio/pages/projects_screen.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:portfolio/pages/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MainPage(),
+      home: const SplashScreen(),
     );
   }
 }
