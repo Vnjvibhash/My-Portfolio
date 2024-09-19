@@ -14,7 +14,7 @@ This app serves as a dynamic showcase of my recent work and projects, providing 
 This project has been a fantastic opportunity to apply my skills in Flutter and Firebase, and I’m incredibly proud of the result. Check out the app and let me know what you think!
 
 ## Video Overview
-[![Watch the video](https://img.youtube.com/vi/ON4PvpNk9Js/0.jpg)](https://www.youtube.com/watch?v=ON4PvpNk9Js)
+[Watch my YouTube Shorts video](https://youtube.com/shorts/vHEHiWegEoo?si=Y-aLrENQHIDkAXQH)
 
 ![Demo GIF](assets/Screen_recording.gif)
 
