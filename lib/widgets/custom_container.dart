@@ -7,12 +7,12 @@ class CustomContainer extends StatelessWidget {
   final EdgeInsets? margin;
 
   const CustomContainer({
-    Key? key,
+    super.key,
     required this.child,
     required this.width,
     required this.padding,
     this.margin,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
