@@ -13,6 +13,10 @@ This app serves as a dynamic showcase of my recent work and projects, providing 
 
 This project has been a fantastic opportunity to apply my skills in Flutter and Firebase, and I’m incredibly proud of the result. Check out the app and let me know what you think!
 
+## Install this App from Google PayStore.
+
+[<img alt="Get it on Google Play" height="80" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png">](https://play.google.com/store/apps/details?id=in.innovateria.portfolio)
+
 ## Video Overview
 [Watch my YouTube Shorts video](https://youtube.com/shorts/vHEHiWegEoo?si=Y-aLrENQHIDkAXQH)
 
